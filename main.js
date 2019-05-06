@@ -44,3 +44,4 @@ document.writeln("===================nuova lista studenti====================" +
 for (var all in studenti){
   document.writeln(studenti[all].nome + " " + studenti[all].cognome + " " + "<br>" );
 }
+document.writeln("===================fine====================")
